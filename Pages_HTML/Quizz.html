@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script type="text/Javascript" src="../JS/lescript.js"></script>
+    <title>QUIZZ</title>
+</head>
+<body>
+    <header>
+        <h1>Projet Programmation Web: Sky Crew Blog</h1>
+        <a target="_blank" href="https://www.instagram.com/emie_con_skycrew/"><img src="../Images/ig.jpg" alt="Logo_instagram" ></a>
+        <a target="_blank" href="https://www.facebook.com/paule.kenmou.9/"><img src="../Images/facebook.webp" alt="Logo_facebook" ></a>
+        <a target="_blank" href="https://www.linkedin.com/in/paule-%C3%A9milie-kenmou-699401206/"><img src="../Images/LinkedIn.png" alt="Logo_linkedin" ></a>
+    </header>
+
+    <h1>Quizz de Français!!</h1>
+
+    <form name="fquiz" id="fquiz" action="rep_quizz.html" method="get"><div>Maître des lettres</div>
+        <p class="question"><label for="Q1">Quel est votre pseudo pour ce jeu?</label>
+            <input type="text" name="Q1" id="Q1" placeholder="joueur X" size="20" maxlength="12"  required>
+        </p>
+        <p class="question">
+            <label for="Q2">Combien de "e" y a t-il dans: evidemment ?</label>
+            <input value="3" name="Q2" type="number" min="1" max="5" step="2" >
+        </p>
+        <p class="question"> 
+            <label for="Q3">Ecrivez la valeur de la question précedente en toutes lettres</label>
+            <input value="trois" type="text" name="Q3" id="Q3" size="10" maxlength="6" >
+        </p>
+        <p class="question">
+            Quel animal représente le meilleur ami de l'homme? <br>
+            <input type="radio" name="Q4" value="Chein" id="Chein">
+            <label for="Chein">Chein</label><br>
+            <input type="radio" name="Q4" value="Crocodile" id="Crocodile">
+            <label for="Crocodile">Crocodile</label><br>
+            <input type="radio" name="Q4" value="Chien" id="Chien">
+            <label for="Chien">Chien</label><br>
+        </p>
+        <p class="question">
+            Quelle est la meilleur syntaxe? <br>
+            <input type="radio" name="Q5" value="rep1" id="rep1">
+            <label for="rep1">Enticonstitutionelement</label><br>
+            <input type="radio" name="Q5" value="rep2" id="rep1">
+            <label for="rep2">Anticonstitutionnelement</label><br>
+            <input type="radio" name="Q5" value="rep3" id="rep1">
+            <label for="rep3">Anticonstitutionnellement</label><br>
+            <input type="radio" name="Q5" value="rep4" id="rep1">
+            <label for="rep4">Enticonstitutionnellemment</label><br>
+            Saviez vous que c'est le mot le plus long de la langue française?
+        </p>
+        <p class="question">
+            <label for="Q6">Combien y a t-il de lettre dans ce mot </label>
+            <input value="25" name="Q6" type="number" min="10" max="30" step="5">
+        </p>
+        <p class="question">
+            Le vétérinaire soigne les animaux <br>
+            <label for="Q7">Combien y a t-il de verbe conjugué dans cette phrase?</label>
+            <input value="1" name="Q7" type="number" min="0" max="4">
+        </p>
+        <p class="question">
+            Cette phrase est dite : <br>
+            <input type="checkbox" name="Q8" id="simple" value="simple">
+            <label for="simple">Simple</label><br>
+            <input type="checkbox" name="Q8" id="normal">
+            <label for="normal">Normale</label><br>
+            <input type="checkbox" name="Q8" id="complexe">
+            <label for="complexe">Complexe</label><br>
+            <input type="checkbox" name="Q8" id="aucun">
+            <label for="aucun">Aucune proposition</label><br>
+        </p>
+        <p class="question">
+            Quels sont le sujet et l'objet de cette même phrase? <br>
+            <input type="checkbox" name="Q9" id="rep1">
+            <label for="rep1">Soigne et animaux</label><br>
+            <input type="checkbox" name="Q9" id="rep2" value="rep2">
+            <label for="rep2">Le vétérinaire et les animaux</label><br>
+            <input type="checkbox" name="Q9" id="rep3">
+            <label for="rep3">Soigne et le veterinaire</label><br>
+            <input type="checkbox" name="Q9" id="rep4">
+            <label for="rep4">Ca n'existe pas </label>
+        </p>
+        <p class="question">
+            <label for="Q10">Je joue <br> Tu.. <br> il Joue <br> Compléter <br></label>
+            <input type="text" value="joues" name="Q10" id="Q10" placeholder="jou.." size="7" maxlength="8">
+        </p>
+        <p class="question">
+            <label for="Q11">Je finis<br> Tu finis <br> il.. <br> Compléter <br></label>
+            <input type="text" value="finit" name="Q11" id="Q11" placeholder="fin.." size="7" maxlength="8">
+        </p>
+        <p class="question">
+            Je finis <br> Tu finis <br> ... <br> Quelle est la suite? <br>
+            <input type="radio" name="Q12" value="rep1" id="rep1">
+            <label for="rep1">Nous finisons  Vous finisez  Ils finissent</label><br>
+            <input type="radio" name="Q12" value="rep2" id="rep2">
+            <label for="rep2">Nous finissons  Vous finissez  Ils finissent</label><br>
+            <input type="radio" name="Q12" value="rep3" id="rep3">
+            <label for="rep3">Nous finissons  Voous finisez  Ils finisent</label>
+        </p>
+        <p class="question">
+            Comment appel t-on le bruit que fait un chat ? <br>
+            <input type="radio" name="Q13" value="rep1" id="rep1">
+            <label for="rep1">miaulement</label><br>
+            <input type="radio" name="Q13" value="rep2" id="rep2">
+            <label for="rep2">miolement</label><br>
+            <input type="radio" name="Q13" value="rep3" id="rep3">
+            <label for="rep3">miollement</label>
+        </p>
+        <p class="question">
+            Le cheval ... <br>
+            <input type="checkbox" name="Q14" id="rep1" value="rep1"> 
+            <label for="rep1">ébroue ou s'hennit</label><br>
+            <input type="checkbox" name="Q14" id="rep2"> 
+            <label for="rep2">ébrolle ou s'hennit</label><br>
+            <input type="checkbox" name="Q14" id="rep3"> 
+            <label for="rep3">s'ébroue ou hennit</label>
+        </p>
+        <br>
+        <input type="submit" value="Envoyer" > <br>
+        <!-- <input type="reset" value="Reprendre"> -->
+        
+    </form>
+    <div id="results"></div>
+
+    <a id="retour" href="../index.html">Retour à l'acceuil</a>
+    <footer>
+        <p>
+            @: Sfax cite Ons <br>
+            Tel:+216 23504687 <br>
+            Mail: skycrew@gmail.com
+        </p>
+    </footer>
+</body>
+</html>

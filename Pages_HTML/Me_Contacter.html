@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Me contacter</title>
+</head>
+<body>
+    <header>
+        <h1>Projet Programmation Web: Sky Crew Blog</h1>
+        <img src="../Images/ig.jpg" alt="Logo_instagram" >
+        <img src="../Images/facebook.webp" alt="Logo_facebook" >
+        <img src="../Images/LinkedIn.png" alt="Logo_linkedin" >
+    </header> <br>
+    <article>
+        <form name="contact" action="get" method="get">
+            <fieldset>
+                <legend>Contactez-moi en remplissant ceci</legend>
+                <table>
+                    <tr>
+                        <td><label for="nom">Nom : </label></td>
+                        <td><input type="text" name="nom" id="nom" autofocus required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="prenom">Prenom : </label></td>
+                        <td><input type="text" name="prenom" id="prenom" autofocus required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Sexe : </label></td>
+                        <td>
+                            <input type="radio" name="sexe" id="masculin" value="1" checked="checked"><label
+                                for="masculin">Masculin</label>
+                            <input type="radio" name="sexe" id="feminin" value="2"><label
+                                for="feminin">Feminin</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="@mail">Adresse Mail : </label></td>
+                        <td><input type="email" name="@mail" id="@mail" autofocus required></td>
+                    </tr>
+                    <tr>
+                        <textarea name="Mail" id="Mail" cols="55" rows="15">
+                            Saisissez votre mail ici !
+                        </textarea>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Envoyer" id="Envoyer"></td>
+                    </tr>
+                </table>
+
+            </fieldset>
+        </form>
+    </article> <br>
+    <a id="retour" href="../index.html">Retour à l'acceuil</a>
+    <footer>
+        <p>
+            @: Sfax cite Ons <br>
+            Tel:+216 23504687 <br>
+            Mail: skycrew@gmail.com
+        </p>
+    </footer>
+</body>
+</html>
